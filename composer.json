@@ -1,0 +1,23 @@
+{
+  "name": "jimmy4fingers/php7-bdd-boilerplate-project",
+  "description": "PHP 7 boilerplate project with phpspec, phpcs, phpmd, phpstan. Also includes a .travis ci pipeline config",
+  "require": {
+    "php": ">=7",
+    "phpspec/phpspec": "^4.3",
+    "squizlabs/php_codesniffer": "3.*",
+    "phpmd/phpmd" : "@stable",
+    "phpstan/phpstan": "^0.9.2"
+  },
+  "minimum-stability": "stable",
+  "autoload":{
+    "psr-4":{
+      "": "src"
+    }
+  },
+  "license": "MIT",
+  "scripts": {
+    "post-install-cmd": [
+      "php composer-post-install.php"
+    ]
+  }
+}

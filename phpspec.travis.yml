@@ -1,0 +1,6 @@
+suites:
+  default:
+    namespace: # @todo namespace
+    psr4_prefix: # @todo namespace
+
+formatter.name: pretty

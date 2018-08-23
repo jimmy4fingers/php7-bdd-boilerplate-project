@@ -1,0 +1,4 @@
+suites:
+    mapper_suite:
+        namespace: # @todo namespace
+        psr4_prefix: # @todo namespace
